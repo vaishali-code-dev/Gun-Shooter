@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.empty {
+  width: 110px;
+  height: 70px;
+  background-color: white;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.gun-wrapper {
+  width: 150px;
+  height: 100px;
+  background-color: cornflowerblue;
+  position: relative;
+}
+
+.bullet {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: crimson;
+  display: flex;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  /* animation: bulletSlide 2s; */
+}
+
+/* @keyframes bulletSlide {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(1500%);
+  }
+  100% {
+    transform: translateX(300%);
+  }
+} */
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+}
